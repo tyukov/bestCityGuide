@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Best City Guide</title>
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+<header class="header" role="banner">
+  <div class="header__wrapper wrapper">
+    <a class="header__logo logo" href="index.html">Best City Guide</a>
+    <nav class="header__nav" role="navigation">
+      <ul class="header-list list">
+        <li class="header-list__item">
+          <a class="header-list__link" href="coffee.html">Ice cream</a>
+        </li>
+        <li class="header-list__item">
+          <a class="header-list__link" href="coffee.html">Donuts</a>
+        </li>
+        <li class="header-list__item">
+          <a class="header-list__link" href="coffee.html">Tea</a>
+        </li>
+        <li class="header-list__item">
+          <a class="header-list__link" href="coffee.html">Coffee</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="main" role="main">
+  <div class="main__wrapper wrapper">
+   <div class="hero">
+      <h1 class="hero__title">Take your order with free delivery </h1>
+    </div>
+    <div class="features grid">
+      <div class="order">
+            <img class="order__img" src="img/coffee-4.svg" alt="Cup of Coffee jack">
+            <div class="order-body">
+             <h4 class="order-body__title">Coffee jack – <span class="order-body__attention">$1.49</span></h4>
+              <p class="order-body__description">Mauris fringilla pellentesque tortor a rutrum. Nulla&nbsp;auctor nisl est, ut dictum lacus pulvinar nec.</p>
+              <form class="form" action="index.html">
+              <div class="form-line">
+                <label class="form__label" for="form__select-main">Your order</label>
+                <div class="form-line__order">
+                  <select class="form__select form__select-main" name="" id="form__select-main">
+                    <option value="Coffee jack">Coffee jack</option>
+                    <option value="2">Coffee espresso</option>
+                    <option value="3">Coffee cappuccino</option>
+                    <option value="4">Coffee latte</option>
+                  </select>
+                  <select class="form__select form__select-count" name="" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-line">
+                <label class="form__label" for="form__input-name">Your name</label>
+                <input class="form__input" id="form__input-name" type="text" placeholder="So we know how to address you">
+              </div>
+              <div class="form-line">
+                <label class="form__label" for="form__input-phone">Your phone number</label>
+                <input class="form__input" id="form__input-phone" type="text" placeholder="We will call you back in 3 minutes.">
+              </div>
+              <div class="form-btn">
+                <button class="btn btn_theme_leafy btn_size_l" type="submit"><span class="btn__text">Call to me</span></button>
+              </div>
+            </form>
+            </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="footer" role="contentinfo">
+  <div class="footer__wrapper wrapper">
+    <div class="footer-message">
+      <span class="footer-message__title">©2015 Residents of The Best City Ever.</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+
